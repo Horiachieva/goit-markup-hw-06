@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container container-nav">
         <nav class="logo-navigation-address">
           <a class="logo" href="./index.html"
             >WEB<span class="logo-studio">Studio</span></a
@@ -56,11 +56,21 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-heroicons-menu"></use>
           </svg>
         </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" type="button" data-menu-close>
+            X
+          </button>
+          <nav class="mobile-menu-nav">n</nav>
+          <address>a</address>
+          <div>l</div>
+        </div>
       </div>
     </header>
     <main>
@@ -584,5 +594,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
