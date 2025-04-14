@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-05</title>
+    <title>goit-markup-hw-06</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -56,10 +56,15 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="section-main-headline section">
+      <section class="hidden section-main-headline section">
         <div class="container">
           <h1 class="main-headline">Effective Solutions for Your Business</h1>
           <button class="main-headline-button" type="button" data-modal-open>
@@ -68,7 +73,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="hidden section">
         <div class="container">
           <h2 class="subtitle-hidden visually-hidden" hidden>section2</h2>
           <ul class="list">
@@ -124,7 +129,7 @@
         </div>
       </section>
 
-      <section class="section-team section">
+      <section class="hidden section-team section">
         <div class="container">
           <h2 class="subtitle-team">Our Team</h2>
           <ul class="team-list">
@@ -301,7 +306,7 @@
         </div>
       </section>
 
-      <section class="section">
+      <section class="hidden section">
         <div class="container">
           <h2 class="subtitle-portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -424,7 +429,7 @@
       </section>
     </main>
 
-    <footer class="footer">
+    <footer class="hidden footer">
       <div class="container">
         <div class="footer-logo-text">
           <a class="logo" href="./index.html"
@@ -492,7 +497,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay" data-modal>
+    <div class="hidden modal-overlay" data-modal>
       <div class="modal">
         <button class="close-button" type="button" data-modal-close>
           <svg class="close-icons" width="8" height="8" overflow="visible">
