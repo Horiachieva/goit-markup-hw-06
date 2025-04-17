@@ -233,7 +233,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 24px;
 }
 
 .contact-details-item {
@@ -607,6 +607,11 @@ button {
 }
 
 /* section-team */
+
+.section-team .container {
+  padding-left: 28px;
+  padding-right: 28px;
+}
 
 .subtitle-hidden,
 .subtitle-team,

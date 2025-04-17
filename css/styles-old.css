@@ -2,13 +2,6 @@
   width: calc((100% - 72px) / 4);
 }
 
-.contact-details {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  gap: 24px;
-}
-
 /* .contact-details-item {
   width: 40px;
   height: 40px;
