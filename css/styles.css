@@ -236,6 +236,10 @@ button {
   gap: 24px;
 }
 
+.contact-details-mob-list {
+  justify-content: space-between;
+}
+
 .contact-details-item {
   width: 40px;
   height: 40px;
