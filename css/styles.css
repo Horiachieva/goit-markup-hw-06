@@ -965,7 +965,8 @@ button {
   .footer .container {
     flex-wrap: nowrap;
     align-items: baseline;
-    padding-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     gap: 0;
   }
 
@@ -1140,6 +1141,11 @@ button {
   color: #8e8f99;
 }
 
+.checkbox-text {
+  display: flex;
+  align-items: center;
+}
+
 .icon-checkbox-cont {
   width: 16px;
   height: 16px;
@@ -1151,11 +1157,12 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
   fill: transparent;
   margin-right: 8px;
 }
 
-.checkbox-policy:checked + .checkbox-text span {
+.checkbox-policy:checked + .checkbox-text .icon-checkbox-cont {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
