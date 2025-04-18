@@ -686,3 +686,25 @@ button {
     align-items: center;
   }
 }
+
+/* portfolio */
+
+.subtitle-portfolio {
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+}
+
+.text-overlay {
+  display: none;
+}
+
+@media screen and (min-width: 1158px) {
+  /* .text-overlay {
+    display: inline-block;
+  } */
+}
