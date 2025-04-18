@@ -35,10 +35,6 @@
   display: inline-block;
 } */
 
-.portfolio-list {
-  column-gap: 24px;
-}
-
 .portfolio-item {
   width: calc((100% - 48px) / 3);
 }
